@@ -1,4 +1,4 @@
-This work is implemented and improved by Wei Yang and Wei Wang, under Prof. Zhanpeng Jin's supervision and guidance. The codes are built based on respective works of David Ross and Naiyan Wang. 
+This work was implemented and improved by Wei Yang and Wei Wang, under Prof. Zhanpeng Jin's supervision and guidance. The codes are built based on respective works of David Ross and Naiyan Wang. 
 
 =================Contents=================
 The provided codes address autonomous tracking problem using different models and classifiers. Different models are included in several folders:
