@@ -3,16 +3,16 @@ This work was implemented and improved by Wei Yang and Wei Wang, under Prof. Zha
 =================Contents=================
 The provided codes address autonomous tracking problem using different models and classifiers. Different models are included in several folders:
 
-- auto_encoder
+- auto-encoder-tracker
   This is the visual tracker proposed in paper "Online Robust Non-negative Dictionary Learning for Visual Tracking", Naiyan Wang and Dit-Yan Yeung, NIPS2013 (You can find details here: http://visual-tracking.net/). It is built with stacked denoising auto-encoder (SDAE) as the classifier. This version is also referred to as DLT.
 
-- cnn
+- cnn-tracker
   This is an improved visual tracker and re-implementation based on DLT. CNN is adopted as classifier and pre-training of CNN is also enabled.
 
 - RCT
   Reservoir Computing Tracker (RCT) replaces the classifier with a standard Echo State Network (ESN). Either the activations of the reservoir or the outputs of the readout layer are used for classification and for further tracking purpose.
 
-- RC+
+- RC-plus
   In this version of visual tracker, a standard ESN is used as trajectory predictor rather than classifier. The predicted target location is used to boost particle filter and an SDAE classifier.
 
 =================Usage====================
