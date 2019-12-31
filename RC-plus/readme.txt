@@ -1,9 +1,9 @@
 =================Contents====================
-- RCAEtracker
+- rcae-tracker
   The modified visual tracker using the combination of Reservoir Computing (RC), Stacked Denoising Auto-encoder (SDAE) and particle filter. RC is used to predict the trajectory and position of target, SDAE is adopted as the classifier, particle filter is for the sampling of target candidates. The RC Trajectory Predictor is implemented in RCpredictor.
 
-- Droneview
-  Stores the Droneview video used.
+- results
+  Stores the trajectory result.
 
 =================Features====================
 - Utilize RC’s ability in time series modeling;
